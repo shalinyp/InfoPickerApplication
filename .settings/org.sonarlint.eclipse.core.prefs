@@ -1,0 +1,5 @@
+autoEnabled=true
+eclipse.preferences.version=1
+extraProperties=
+moduleKey=org.sequoia.iot.demo.infopicker\:InfoPickerApplication
+serverId=localhost

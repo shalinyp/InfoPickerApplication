@@ -1,0 +1,745 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8814814814814815" branch-rate="0.8333333333333334" lines-covered="119" lines-valid="135" branches-covered="25" branches-valid="30" complexity="1.434782608695652" version="2.1.1" timestamp="1464077883857">
+	<sources>
+		<source>--source</source>
+		<source>G:/Sequoia/Workspace/InfoPickerApplication/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="org.sequoia.iot.demo.infopicker" line-rate="0.9347826086956522" branch-rate="0.75" complexity="2.0833333333333335">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.AppIotPlatformFactory" filename="org/sequoia/iot/demo/infopicker/AppIotPlatformFactory.java" line-rate="1.0" branch-rate="0.875" complexity="7.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="getIotInstance" signature="(Lorg/sequoia/iot/demo/infopicker/utils/ConsumerApps;Lorg/sequoia/iot/demo/infopicker/utils/IotServer;)Lorg/sequoia/iot/demo/infopicker/ConsumerApplication;" line-rate="1.0" branch-rate="0.875" complexity="0">
+							<lines>
+								<line number="39" hits="5" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="40" hits="1" branch="false"/>
+								<line number="42" hits="3" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="43" hits="1" branch="false"/>
+								<line number="45" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="8" branch="false"/>
+						<line number="39" hits="5" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="40" hits="1" branch="false"/>
+						<line number="42" hits="3" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="43" hits="1" branch="false"/>
+						<line number="45" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.ConsumerApplication" filename="org/sequoia/iot/demo/infopicker/ConsumerApplication.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="displayInformation" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="5" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.InfoPickerApplication" filename="org/sequoia/iot/demo/infopicker/InfoPickerApplication.java" line-rate="0.8571428571428571" branch-rate="1.0" complexity="1.25">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="1" branch="false"/>
+								<line number="23" hits="1" branch="false"/>
+								<line number="24" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="1" branch="false"/>
+								<line number="28" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInstance" signature="()Lorg/sequoia/iot/demo/infopicker/InfoPickerApplication;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.6666666666666666" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="1" branch="false"/>
+								<line number="40" hits="1" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLauncher" signature="(Lorg/sequoia/iot/demo/infopicker/InfoPickerLauncher;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="1" branch="false"/>
+								<line number="55" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="1" branch="false"/>
+						<line number="23" hits="1" branch="false"/>
+						<line number="24" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="40" hits="1" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="55" hits="1" branch="false"/>
+						<line number="64" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.InfoPickerLauncher" filename="org/sequoia/iot/demo/infopicker/InfoPickerLauncher.java" line-rate="1.0" branch-rate="0.6666666666666666" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="11" branch="false"/>
+								<line number="26" hits="11" branch="false"/>
+								<line number="27" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="getApplicationName" signature="()Lorg/sequoia/iot/demo/infopicker/utils/ConsumerApps;" line-rate="1.0" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="72" hits="4" branch="false"/>
+								<line number="73" hits="4" branch="false"/>
+								<line number="74" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="75" hits="4" branch="false"/>
+								<line number="76" hits="4" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="77" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getIotServerName" signature="()Lorg/sequoia/iot/demo/infopicker/utils/IotServer;" line-rate="1.0" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="91" hits="4" branch="false"/>
+								<line number="92" hits="4" branch="false"/>
+								<line number="93" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="4" branch="false"/>
+								<line number="96" hits="4" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="97" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPropertyValue" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="loadFile" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="10" branch="false"/>
+								<line number="63" hits="9" branch="false"/>
+								<line number="64" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="loadPropertyFile" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="10" branch="false"/>
+								<line number="40" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="startApp" signature="(Lorg/sequoia/iot/demo/infopicker/AppIotPlatformFactory;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="52" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="11" branch="false"/>
+						<line number="26" hits="11" branch="false"/>
+						<line number="27" hits="11" branch="false"/>
+						<line number="39" hits="10" branch="false"/>
+						<line number="40" hits="9" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="52" hits="1" branch="false"/>
+						<line number="62" hits="10" branch="false"/>
+						<line number="63" hits="9" branch="false"/>
+						<line number="64" hits="9" branch="false"/>
+						<line number="72" hits="4" branch="false"/>
+						<line number="73" hits="4" branch="false"/>
+						<line number="74" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="75" hits="4" branch="false"/>
+						<line number="76" hits="4" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="77" hits="2" branch="false"/>
+						<line number="82" hits="8" branch="false"/>
+						<line number="91" hits="4" branch="false"/>
+						<line number="92" hits="4" branch="false"/>
+						<line number="93" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="4" branch="false"/>
+						<line number="96" hits="4" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="97" hits="2" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.sequoia.iot.demo.infopicker.defaultapplication" line-rate="0.7692307692307693" branch-rate="1.0" complexity="1.25">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.defaultapplication.DefaultApplication" filename="org/sequoia/iot/demo/infopicker/defaultapplication/DefaultApplication.java" line-rate="1.0" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lorg/sequoia/iot/demo/infopicker/services/Controller;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="3" branch="false"/>
+								<line number="27" hits="3" branch="false"/>
+								<line number="28" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="displayInformation" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="1" branch="false"/>
+								<line number="32" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="1" branch="false"/>
+						<line number="24" hits="3" branch="false"/>
+						<line number="27" hits="3" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="31" hits="1" branch="false"/>
+						<line number="32" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.defaultapplication.GeoLocatorApplication" filename="org/sequoia/iot/demo/infopicker/defaultapplication/GeoLocatorApplication.java" line-rate="0.5714285714285714" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lorg/sequoia/iot/demo/infopicker/services/GeoLocatorController;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="1" branch="false"/>
+								<line number="28" hits="1" branch="false"/>
+								<line number="29" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="displayInformation" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="1" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="29" hits="1" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.sequoia.iot.demo.infopicker.geotracker" line-rate="0.6666666666666666" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.geotracker.GeoTrackerApplication" filename="org/sequoia/iot/demo/infopicker/geotracker/GeoTrackerApplication.java" line-rate="0.6666666666666666" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lorg/sequoia/iot/demo/infopicker/services/Controller;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="1" branch="false"/>
+								<line number="26" hits="1" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="displayInformation" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="1" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.sequoia.iot.demo.infopicker.model" line-rate="0.7" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.model.EventData" filename="org/sequoia/iot/demo/infopicker/model/EventData.java" line-rate="0.7" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="getId" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLabel" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getValue" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="1" branch="false"/>
+								<line number="26" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLabel" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValue" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="1" branch="false"/>
+								<line number="42" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="14" hits="8" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="41" hits="1" branch="false"/>
+						<line number="42" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.sequoia.iot.demo.infopicker.services" line-rate="0.9318181818181818" branch-rate="1.0" complexity="1.1764705882352942">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.services.Controller" filename="org/sequoia/iot/demo/infopicker/services/Controller.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.services.DefaultController" filename="org/sequoia/iot/demo/infopicker/services/DefaultController.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.services.GeoLocatorController" filename="org/sequoia/iot/demo/infopicker/services/GeoLocatorController.java" line-rate="0.9333333333333333" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="3" branch="false"/>
+								<line number="18" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInformation" signature="()Lorg/sequoia/iot/demo/infopicker/model/EventData;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMap" signature="(Ljava/lang/String;Ljava/lang/String;)[B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="2" branch="false"/>
+								<line number="37" hits="2" branch="false"/>
+								<line number="38" hits="1" branch="false"/>
+								<line number="39" hits="1" branch="false"/>
+								<line number="41" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="42" hits="3" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+								<line number="47" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="3" branch="false"/>
+						<line number="18" hits="3" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="36" hits="2" branch="false"/>
+						<line number="37" hits="2" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="41" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="42" hits="3" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="47" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.services.IotController" filename="org/sequoia/iot/demo/infopicker/services/IotController.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.services.KaaController" filename="org/sequoia/iot/demo/infopicker/services/KaaController.java" line-rate="0.9166666666666666" branch-rate="1.0" complexity="1.1818181818181819">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="5" branch="false"/>
+								<line number="20" hits="5" branch="false"/>
+								<line number="21" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInformation" signature="()Lorg/sequoia/iot/demo/infopicker/model/EventData;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getKaaContext" signature="()Lorg/kaaproject/kaa/client/KaaClientPlatformContext;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="initialize" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="67" hits="2" branch="false"/>
+								<line number="69" hits="2" branch="false"/>
+								<line number="70" hits="2" branch="false"/>
+								<line number="81" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="82" hits="1" branch="false"/>
+								<line number="83" hits="2" branch="false"/>
+								<line number="84" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="isKaaStarted" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="isUserAttached" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="login" signature="(Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="onAttachResult" signature="(Lorg/kaaproject/kaa/common/endpoint/gen/UserAttachResponse;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="2" branch="false"/>
+								<line number="49" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="50" hits="1" branch="false"/>
+								<line number="52" hits="1" branch="false"/>
+								<line number="55" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="retrieveDataFromServer" signature="()Lorg/sequoia/iot/demo/infopicker/model/EventData;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setKaaClient" signature="(Lorg/kaaproject/kaa/client/KaaClient;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="4" branch="false"/>
+								<line number="63" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="5" branch="false"/>
+						<line number="20" hits="5" branch="false"/>
+						<line number="21" hits="5" branch="false"/>
+						<line number="25" hits="2" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="39" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="49" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="50" hits="1" branch="false"/>
+						<line number="52" hits="1" branch="false"/>
+						<line number="55" hits="2" branch="false"/>
+						<line number="58" hits="2" branch="false"/>
+						<line number="62" hits="4" branch="false"/>
+						<line number="63" hits="4" branch="false"/>
+						<line number="67" hits="2" branch="false"/>
+						<line number="69" hits="2" branch="false"/>
+						<line number="70" hits="2" branch="false"/>
+						<line number="81" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="82" hits="1" branch="false"/>
+						<line number="83" hits="2" branch="false"/>
+						<line number="84" hits="2" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.services.KaaController$1" filename="org/sequoia/iot/demo/infopicker/services/KaaController.java" line-rate="1.0" branch-rate="1.0" complexity="1.1818181818181819">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lorg/sequoia/iot/demo/infopicker/services/KaaController;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="onStartFailure" signature="(Lorg/kaaproject/kaa/client/exceptions/KaaException;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="1" branch="false"/>
+								<line number="79" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="onStarted" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="73" hits="1" branch="false"/>
+								<line number="75" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="70" hits="2" branch="false"/>
+						<line number="73" hits="1" branch="false"/>
+						<line number="75" hits="1" branch="false"/>
+						<line number="78" hits="1" branch="false"/>
+						<line number="79" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.sequoia.iot.demo.infopicker.utils" line-rate="0.875" branch-rate="1.0" complexity="1.6">
+			<classes>
+				<class name="org.sequoia.iot.demo.infopicker.utils.ConsumerApps" filename="org/sequoia/iot/demo/infopicker/utils/ConsumerApps.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="4" branch="false"/>
+								<line number="15" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="3" branch="false"/>
+								<line number="20" hits="3" branch="false"/>
+								<line number="21" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lorg/sequoia/iot/demo/infopicker/utils/ConsumerApps;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lorg/sequoia/iot/demo/infopicker/utils/ConsumerApps;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="4" branch="false"/>
+						<line number="15" hits="1" branch="false"/>
+						<line number="19" hits="3" branch="false"/>
+						<line number="20" hits="3" branch="false"/>
+						<line number="21" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.utils.InfoPickerConstants" filename="org/sequoia/iot/demo/infopicker/utils/InfoPickerConstants.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.utils.IotServer" filename="org/sequoia/iot/demo/infopicker/utils/IotServer.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="4" branch="false"/>
+								<line number="15" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="3" branch="false"/>
+								<line number="20" hits="3" branch="false"/>
+								<line number="21" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lorg/sequoia/iot/demo/infopicker/utils/IotServer;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lorg/sequoia/iot/demo/infopicker/utils/IotServer;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="4" branch="false"/>
+						<line number="15" hits="1" branch="false"/>
+						<line number="19" hits="3" branch="false"/>
+						<line number="20" hits="3" branch="false"/>
+						<line number="21" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.sequoia.iot.demo.infopicker.utils.Utility" filename="org/sequoia/iot/demo/infopicker/utils/Utility.java" line-rate="0.8" branch-rate="1.0" complexity="2.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isInEnum" signature="(Ljava/lang/String;Ljava/lang/Class;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="27" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="19" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="20" hits="5" branch="false"/>
+								<line number="22" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="0" branch="false"/>
+						<line number="18" hits="27" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="19" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="20" hits="5" branch="false"/>
+						<line number="22" hits="5" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

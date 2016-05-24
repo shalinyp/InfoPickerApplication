@@ -1,0 +1,5 @@
+projectKey=org.sequoia.iot.demo.infopicker:InfoPickerApplication
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/org.sequoia.iot.demo.infopicker:InfoPickerApplication
+ceTaskId=AVTh2JGt1X_xAcv76Zft
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVTh2JGt1X_xAcv76Zft
