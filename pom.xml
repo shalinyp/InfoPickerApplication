@@ -13,7 +13,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+			<dependency>
 			<groupId>kaa-java-ep-sdk</groupId>
 			<artifactId>client-multi</artifactId>
 			<scope>system</scope>
