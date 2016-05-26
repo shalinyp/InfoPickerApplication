@@ -15,7 +15,7 @@ import org.aat.iot.demo.infopicker.utils.IotServer;
  * the consumer app and iot server argument.
  * </p>
  * 
- * @author Shalini
+ * @author Shalini P
  * @version 1.0
  * @since 5/13/2016
  */
