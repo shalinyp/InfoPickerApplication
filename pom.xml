@@ -18,14 +18,14 @@
 			<artifactId>client-multi</artifactId>
 			<scope>system</scope>
 			<version>0.8.1</version>
-			<systemPath>${basedir}\src\lib\kaa-java-ep-sdk.jar</systemPath>
+			<systemPath>${basedir}/src/lib/kaa-java-ep-sdk.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>kii-sdk</groupId>
 			<artifactId>kii-sdk</artifactId>
 			<scope>system</scope>
 			<version>1.0</version>
-			<systemPath>${basedir}\src\lib\kii-sdk.jar</systemPath>
+			<systemPath>${basedir}/src/lib/kii-sdk.jar</systemPath>
 		</dependency>
 
 		<dependency>
