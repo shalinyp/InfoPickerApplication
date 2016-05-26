@@ -15,9 +15,9 @@
 
 		<dependency>
 			<groupId>kaa-java-ep-sdk</groupId>
-			<artifactId>kaa-java-ep-sdk</artifactId>
+			<artifactId>client-multi</artifactId>
 			<scope>system</scope>
-			<version>1.0</version>
+			<version>0.8.1</version>
 			<systemPath>${basedir}\src\lib\kaa-java-ep-sdk.jar</systemPath>
 		</dependency>
 		<dependency>
