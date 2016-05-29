@@ -21,7 +21,7 @@ import org.aat.iot.demo.infopicker.utils.IotServer;
  * @since 5/13/2016
  */
 
-public class AppIotPlatformFactory {
+public class AppIotPlatformFactory 
 
   /**
    * This method is used to create an instance of ConsumerApplication based on the consumerApps and
