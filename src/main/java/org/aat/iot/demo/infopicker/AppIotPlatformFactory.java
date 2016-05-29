@@ -16,7 +16,7 @@ import org.aat.iot.demo.infopicker.utils.IotServer;
  * iot server argument.
  * </p>
  * 
- * @author aat
+ * @author aat@
  * @version 1.0
  * @since 5/13/2016
  */
