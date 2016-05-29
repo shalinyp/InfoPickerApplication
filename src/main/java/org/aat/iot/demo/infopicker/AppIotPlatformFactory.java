@@ -16,12 +16,12 @@ import org.aat.iot.demo.infopicker.utils.IotServer;
  * iot server argument.
  * </p>
  * 
- * @author aat@
+ * @author aat
  * @version 1.0
  * @since 5/13/2016
  */
 
-public class AppIotPlatformFactory {
+public class AppIotPlatformFactory 
 
   /**
    * This method is used to create an instance of ConsumerApplication based on the consumerApps and
