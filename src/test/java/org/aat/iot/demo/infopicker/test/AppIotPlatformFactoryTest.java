@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 import org.aat.iot.demo.infopicker.AppIotPlatformFactory;
 import org.aat.iot.demo.infopicker.ConsumerApplication;
 import org.aat.iot.demo.infopicker.defaultapplication.DefaultApplication;
-import org.aat.iot.demo.infopicker.defaultapplication.GeoLocatorApplication;
+import org.aat.iot.demo.infopicker.geolocator.GeoLocatorApplication;
 import org.aat.iot.demo.infopicker.geotracker.GeoTrackerApplication;
 import org.aat.iot.demo.infopicker.utils.ConsumerApps;
 import org.aat.iot.demo.infopicker.utils.IotServer;
@@ -41,20 +41,22 @@ public class AppIotPlatformFactoryTest {
     assertTrue(consumerApplication instanceof DefaultApplication);
 
   }
-  
+
   @Test
   public void checkIfGetInstanceReturnsGeoLocatorAppInstanceValidArgs() {
     AppIotPlatformFactory appIotPlatformFactory = new AppIotPlatformFactory();
-    ConsumerApplication consumerApplication = appIotPlatformFactory.getIotInstance(ConsumerApps.GEOLOCATOR, IotServer.DEFAULT);
+    ConsumerApplication consumerApplication =
+        appIotPlatformFactory.getIotInstance(ConsumerApps.GEOLOCATOR, IotServer.DEFAULT);
     assertTrue(consumerApplication instanceof ConsumerApplication);
     assertTrue(consumerApplication instanceof GeoLocatorApplication);
 
   }
-  
+
   @Test
   public void checkIfGetInstanceReturnsGeoTrackerAppInstanceValidArgs() {
     AppIotPlatformFactory appIotPlatformFactory = new AppIotPlatformFactory();
-    ConsumerApplication consumerApplication = appIotPlatformFactory.getIotInstance(ConsumerApps.GEOTRACKER, IotServer.KAA);
+    ConsumerApplication consumerApplication =
+        appIotPlatformFactory.getIotInstance(ConsumerApps.GEOTRACKER, IotServer.KAA);
     assertTrue(consumerApplication instanceof ConsumerApplication);
     assertTrue(consumerApplication instanceof GeoTrackerApplication);
 

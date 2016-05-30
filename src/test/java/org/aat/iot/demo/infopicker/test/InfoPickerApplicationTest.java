@@ -24,10 +24,9 @@ public class InfoPickerApplicationTest {
     // PowerMockito.verifyNew(InfoPickerLauncher.class).withNoArguments();
     Mockito.verify(launcherMock).loadPropertyFile(InfoPickerConstants.PROPERTY_FILE);
   }
-  
+
   @Test
-  public void checkWhetherGetInstanceReturnsInfoPickerApplicationInstance()
-  {
+  public void checkWhetherGetInstanceReturnsInfoPickerApplicationInstance() {
     assertTrue(InfoPickerApplication.getInstance() instanceof InfoPickerApplication);
   }
 

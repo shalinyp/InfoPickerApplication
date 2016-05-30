@@ -12,7 +12,7 @@ import org.aat.iot.demo.infopicker.AppIotPlatformFactory;
 import org.aat.iot.demo.infopicker.ConsumerApplication;
 import org.aat.iot.demo.infopicker.InfoPickerLauncher;
 import org.aat.iot.demo.infopicker.defaultapplication.DefaultApplication;
-import org.aat.iot.demo.infopicker.defaultapplication.GeoLocatorApplication;
+import org.aat.iot.demo.infopicker.geolocator.GeoLocatorApplication;
 import org.aat.iot.demo.infopicker.services.GeoLocatorController;
 import org.aat.iot.demo.infopicker.utils.ConsumerApps;
 import org.aat.iot.demo.infopicker.utils.InfoPickerConstants;
@@ -93,18 +93,18 @@ public class InfoPickerLauncherTest {
     writeTestPropertyValues(InfoPickerConstants.PROPERTY_IOTSERVER, "KAA");
     assertEquals(IotServer.KAA, launcher.getIotServerName());
   }
-  
-  
+
+
   @Test
-  public void testWhetherDisplayInformationOfDefaultAppIsInvokedOnStartApp() throws IOException
-  {
+  public void testWhetherDisplayInformationOfDefaultAppIsInvokedOnStartApp() throws IOException {
     GeoLocatorApplication geoLocatorAppMock = Mockito.mock(GeoLocatorApplication.class);
     AppIotPlatformFactory appIotPlatformFactoryMock = Mockito.mock(AppIotPlatformFactory.class);
     writeTestPropertyValues(InfoPickerConstants.PROPERTY_CONSUMER_APP, "GeoLocator");
     writeTestPropertyValues(InfoPickerConstants.PROPERTY_IOTSERVER, "Default");
-    Mockito.when(appIotPlatformFactoryMock.getIotInstance(Mockito.any(ConsumerApps.class), Mockito.any(IotServer.class))).thenReturn(geoLocatorAppMock);
+    Mockito.when(appIotPlatformFactoryMock.getIotInstance(Mockito.any(ConsumerApps.class),
+        Mockito.any(IotServer.class))).thenReturn(geoLocatorAppMock);
     launcher.startApp(appIotPlatformFactoryMock);
-    Mockito.verify(geoLocatorAppMock,Mockito.times(1)).displayInformation();
+    Mockito.verify(geoLocatorAppMock, Mockito.times(1)).displayInformation();
   }
 
 }

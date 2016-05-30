@@ -11,20 +11,18 @@ import org.junit.Test;
  * Created by Shalini on 5/16/2016.
  */
 public class GeoTrackerApplicationTest {
-  
-  //class under Test
+
+  // class under Test
   @Before
-  public void setUp()
-  {
+  public void setUp() {
     AppIotPlatformFactory appIotPlatformFactory = new AppIotPlatformFactory();
     ConsumerApplication consumerApplication =
         appIotPlatformFactory.getIotInstance(ConsumerApps.GEOTRACKER, IotServer.DEFAULT);
   }
 
   @Test
-  public void testInvalidUrlReturnsException()
-  {
-    
+  public void testInvalidUrlReturnsException() {
+
   }
 
 
