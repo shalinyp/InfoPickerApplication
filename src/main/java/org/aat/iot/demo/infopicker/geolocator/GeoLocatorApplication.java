@@ -1,4 +1,4 @@
-package org.aat.iot.demo.infopicker.defaultapplication;
+package org.aat.iot.demo.infopicker.geolocator;
 
 import org.aat.iot.demo.infopicker.ConsumerApplication;
 import org.aat.iot.demo.infopicker.services.Controller;
@@ -7,8 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * <h1>GeoLocatorApplication</h1> 
- * <p>GeoTrackerApplication is a specific Consumer Application which returns the static google map 
+ * <h1>GeoLocatorApplication</h1>
+ * <p>
+ * GeoTrackerApplication is a specific Consumer Application which returns the static google map
  * Image if the location is given.
  * </p>
  * 
@@ -18,12 +19,12 @@ import org.slf4j.LoggerFactory;
  */
 
 public class GeoLocatorApplication extends ConsumerApplication {
-  
+
   private static final Logger LOG = LoggerFactory.getLogger(GeoLocatorApplication.class);
 
   Controller mIotController;
-  
-  
+
+
   public GeoLocatorApplication(GeoLocatorController geoLocatorController) {
     mIotController = geoLocatorController;
   }
@@ -31,7 +32,7 @@ public class GeoLocatorApplication extends ConsumerApplication {
   public void displayInformation() {
     LOG.debug("GeoLocator Application");
     mIotController.getInformation();
-    
+
   }
 
 }
