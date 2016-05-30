@@ -6,9 +6,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * <h1>GeoTrackerApplication</h1> 
- * <p>GeoTrackerApplication is a specific Consumer Application which returns GPS location
- * as latitude and longitude.
+ * <h1>GeoTrackerApplication</h1>
+ * <p>
+ * GeoTrackerApplication is a specific Consumer Application which returns GPS location as latitude
+ * and longitude.
  * </p>
  * 
  * @author Shalini
@@ -17,11 +18,11 @@ import org.slf4j.LoggerFactory;
  */
 
 public class GeoTrackerApplication extends ConsumerApplication {
-  
+
   private static final Logger LOG = LoggerFactory.getLogger(GeoTrackerApplication.class);
 
   Controller mIotController;
-  
+
   public GeoTrackerApplication(Controller iotPlatform) {
     mIotController = iotPlatform;
   }
