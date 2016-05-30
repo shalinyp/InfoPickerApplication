@@ -1,9 +1,10 @@
 package org.aat.iot.demo.infopicker.model;
 
 /**
- * <h1>EventData</h1> 
- * <p> This is a custom object class, all the data collected by the application
- * is specified as EventData, which an Id, label and value.
+ * <h1>EventData</h1>
+ * <p>
+ * This is a custom object class, all the data collected by the application is specified as
+ * EventData, which an Id, label and value.
  * </p>
  * 
  * @author Shalini
@@ -41,6 +42,6 @@ public class EventData {
     this.value = value;
   }
 
- 
+
 
 }
