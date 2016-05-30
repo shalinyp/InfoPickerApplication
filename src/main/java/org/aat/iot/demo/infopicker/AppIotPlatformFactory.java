@@ -2,7 +2,7 @@ package org.aat.iot.demo.infopicker;
 
 
 import org.aat.iot.demo.infopicker.defaultapplication.DefaultApplication;
-import org.aat.iot.demo.infopicker.defaultapplication.GeoLocatorApplication;
+import org.aat.iot.demo.infopicker.geolocator.GeoLocatorApplication;
 import org.aat.iot.demo.infopicker.geotracker.GeoTrackerApplication;
 import org.aat.iot.demo.infopicker.services.GeoLocatorController;
 import org.aat.iot.demo.infopicker.services.KaaController;

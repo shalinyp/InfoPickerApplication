@@ -11,8 +11,9 @@ import org.aat.iot.demo.infopicker.utils.IotServer;
 import org.aat.iot.demo.infopicker.utils.Utility;
 
 /**
- * <h1>InfoPickerLauncher</h1> 
- * <p>This class loads the application property file "local.properties".
+ * <h1>InfoPickerLauncher</h1>
+ * <p>
+ * This class loads the application property file "local.properties".
  * </p>
  * 
  * @author Shalini
@@ -29,35 +30,37 @@ public class InfoPickerLauncher {
   ConsumerApplication consumerApplication;
 
   /**
-   * It loads the property file name. All the input argument to the application
-   * can be loaded from the propery file
+   * It loads the property file name. All the input argument to the application can be loaded from
+   * the propery file
    * 
    * @param the property file name
    * @throws IOException
    */
   public void loadPropertyFile(String propertyFileName) throws IOException {
-    loadFile(propertyFileName);    
+    loadFile(propertyFileName);
   }
 
   /**
-   * Starts the application by invoking the appropriate consumer App by giving
-   * the application name and Iot server used. 
-   * @param appIotPlatformFactory 
+   * Starts the application by invoking the appropriate consumer App by giving the application name
+   * and Iot server used.
+   * 
+   * @param appIotPlatformFactory
    */
   public void startApp(AppIotPlatformFactory appIotPlatformFactory) {
 
-    consumerApplication = appIotPlatformFactory.getIotInstance(getApplicationName(), getIotServerName());
-    consumerApplication.displayInformation(); 
+    consumerApplication =
+        appIotPlatformFactory.getIotInstance(getApplicationName(), getIotServerName());
+    consumerApplication.displayInformation();
 
   }
-  
+
   /**
    * Loads the property file
    * 
    * @param propertyFileName
    * @throws IOException
    */
-  
+
   private void loadFile(String propertyFileName) throws IOException {
     input = new FileInputStream(propertyFileName);
     prop.load(input);
