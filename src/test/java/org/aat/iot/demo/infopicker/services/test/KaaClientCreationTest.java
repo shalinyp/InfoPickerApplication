@@ -58,14 +58,15 @@ public class KaaClientCreationTest {
     assertTrue(kaaController.isKaaStarted());
 
   }
-  
+
   @Test
   public void testWhetherIsKaaStartedFuncReturnsFalseIfNotInitialized() {
     mockStatic(Kaa.class);
     PowerMockito.doAnswer(new Answer<KaaClient>() {
       @Override
       public KaaClient answer(InvocationOnMock invocation) throws Throwable {
-        ((SimpleKaaClientStateListener) invocation.getArguments()[1]).onStartFailure(Mockito.any(KaaException.class));
+        ((SimpleKaaClientStateListener) invocation.getArguments()[1])
+            .onStartFailure(Mockito.any(KaaException.class));
         return null;
       }
     }).when(Kaa.class);

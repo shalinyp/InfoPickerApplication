@@ -3,6 +3,7 @@ package org.aat.iot.demo.infopicker.services.test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import org.aat.iot.demo.infopicker.model.EventData;
 import org.aat.iot.demo.infopicker.services.KaaController;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,13 +29,13 @@ public class KaaControllerTest {
 
   @Mock
   private KaaClient kaaClientMock;
-  
+
   @Mock
   private EventFamilyFactory eventFamilyFactoryMock;
-  
+
   @Mock
   private InfoPickerEventClassFamily infoPickerEventClassFamilyMock;
-  
+
   @Mock
   private DeviceInfosRequest deviceInfosRequestMock;
 
@@ -93,7 +94,17 @@ public class KaaControllerTest {
         Mockito.any(String.class), Mockito.any(UserAttachCallback.class));
     assertFalse(kaaController.isUserAttached());
   }
-  
-  
-  
+
+  @Test
+  public void testWhetherGetInformationReturnsEventData() {
+    assertTrue(kaaController.getInformation() instanceof EventData);
+  }
+
+  @Test
+  public void testWhetherRetrieveDataFromServerReturnsEventData() {
+    assertTrue(kaaController.retrieveDataFromServer() instanceof EventData);
+  }
+
+
+
 }
