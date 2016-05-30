@@ -31,20 +31,21 @@ public class GeoLocatorController implements DefaultController {
    * @return static google map image byte aaray
    * @throws IOException
    */
-  
-  public byte[] getMap(String googleMapUrl, String location) throws  IOException {
-    URLConnection con = new URL(googleMapUrl+"center="+location+"&size=640x400").openConnection();
+
+  public byte[] getMap(String googleMapUrl, String location) throws IOException {
+    URLConnection con =
+        new URL(googleMapUrl + "center=" + location + "&size=640x400").openConnection();
     InputStream is = con.getInputStream();
-    byte [] bytes  = new byte[con.getContentLength()+1];
+    byte[] bytes = new byte[con.getContentLength() + 1];
     ByteArrayOutputStream buffer = new ByteArrayOutputStream();
     int nRead;
     while ((nRead = is.read(bytes, 0, bytes.length)) != -1) {
-        buffer.write(bytes, 0, nRead);
-    } 
+      buffer.write(bytes, 0, nRead);
+    }
     buffer.flush();
     is.close();
     eventData.setId(1);
-    eventData.setLabel("Map" +location);
+    eventData.setLabel("Map" + location);
     eventData.setValue(Arrays.toString(bytes));
     return bytes;
   }

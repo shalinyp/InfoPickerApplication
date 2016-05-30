@@ -12,14 +12,14 @@ import org.kaaproject.kaa.client.exceptions.KaaException;
 import org.kaaproject.kaa.common.endpoint.gen.SyncResponseResultType;
 import org.kaaproject.kaa.common.endpoint.gen.UserAttachResponse;
 
-public class KaaController implements IotController,  UserAttachCallback {
+public class KaaController implements IotController, UserAttachCallback {
 
 
   KaaClient kaaClient;
   boolean isKaaStarted;
   private boolean mUserAttached = false;
   EventData eventData = new EventData();
- 
+
 
   public boolean isKaaStarted() {
     return isKaaStarted;
@@ -71,22 +71,23 @@ public class KaaController implements IotController,  UserAttachCallback {
       @Override
       public void onStarted() {
         isKaaStarted = true;
-        
+
       }
+
       @Override
       public void onStartFailure(KaaException exception) {
         isKaaStarted = false;
       }
     });
-    if(isKaaStarted)
+    if (isKaaStarted)
       kaaClient.start();
     setKaaClient(kaaClient);
     return isKaaStarted;
   }
-  
+
   @Override
   public EventData retrieveDataFromServer() {
-    return null;
+    return eventData;
   }
 
 }
