@@ -13,11 +13,13 @@ package org.aat.iot.demo.infopicker.utils;
 
 public class InfoPickerConstants {
 
+  private InfoPickerConstants() {}
+  
   public static final String GEOTRACKER_APP = "GeoTracker Application";
   public static final String PROPERTY_FILE = "local.properties";
   public static final String PROPERTY_CONSUMER_APP = "ConsumerApps";
   public static final String PROPERTY_IOTSERVER = "IotServer";
   public static final String GOOGLE_MAP_URL = "http://maps.google.com/maps/api/staticmap?";
   
-  private InfoPickerConstants() {}
+
 }
